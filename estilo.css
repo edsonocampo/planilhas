@@ -62,7 +62,7 @@ footer dl, footer p{
 }
 iframe{
     width: 100%;
-    height: 190px;
+    height: 300px;
     border-color: transparent;
 }
 /*Tablets*/
@@ -73,7 +73,7 @@ iframe{
     }
     iframe{
     width: 100%;
-    height: 190px;
+    height: 300px;
     border-color: transparent;
     }
 }
@@ -94,7 +94,7 @@ iframe{
     }
     iframe{
     width: 100%;
-    height: 190px;
+    height: 300px;
     border-color: transparent;
     }
 }
