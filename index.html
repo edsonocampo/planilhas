@@ -13,26 +13,26 @@
     <link rel="stylesheet" href="menu.css">
   </head>
 
-  <header id="header">
-    <a id="logo" href="">  Manutenção do Lar </a>
+<body>
+  <div class="row">
+    <header id="header">
+    <a id="logo" href="">  Planilhas </a>
     <nav id="nav">
       <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false"><!--Menu-->
           <span id="hamburger"></span>
       </button>
       <ul id="menu" role="menu">
-         <li><a href="/">Actas</a></li>
-         <li><a href="/">Cartas</a></li>
-         <li><a href="/">Registro</a></li>
-         <li><a href="/">Territorio</a></li>
+         <li><a href="/">Inicio</a></li>
+         <li><a href="/">Planilha 1</a></li>
+         <li><a href="/">Planilha 2</a></li>
+         <li><a href="/">Planilha 3</a></li>
       </ul>
     </nav>
   </header>
-<body>
-  <div class="row">
   <section>
     <article class="card">
-        <h2>VENDA DE ATIVOS</h2>
-        <h5>Compre artigos seminovos em bom estado</h5>
+        <h2>PLANILHAS</h2>
+        <h5>Programações em planilhas</h5>
 
         <!--galeria-->
 
@@ -42,17 +42,22 @@
     </article>
 
     <article class="card">
-      <h2>DESENVOLVIMENTO WEB</h2>
-      <h5>Desenvolva sites com html, css e JavaScript</h5>
-      <img src="teste.jpg" width="100%">
-      <p>Sobre o curso</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </p>
+      <h2>PROGRAMAÇÃO</h2>
+        
+          <iframe src="https://docs.google.com/spreadsheets/d/1NPo8zs7IX2UKzTWt9pmV-11aQoN7Hu_Qjt3G-sc1Aeo/htmlembed?gid=0&amp;range=A1:G8&amp;widget=false&amp;headers=false&amp;chrome=false"></iframe>
+        
+
+    <!--
+
+      range=A1:B14 - Seta o intervaloque você quer
+      widget=false - Se falso, não apresenta a barra de ferramentas do Spreadsheet
+      headers=false - Se falso, números e letras de colunas e linhas não são exibidas
+      chrome=false, Se falso, título e rodapé não são exibidos-->
+
+
+     
+
+
     </article>
   </section>
   <aside>
@@ -65,13 +70,13 @@
       </p>
     </article>
     <article class="card">
-      <center><h1>Manutenção do Lar</h1></center>
-    <center><h2>Orçamento <em>Rápido</em></h2></center>
+      <center><h1>Planilhas</h1></center>
+    <center><h2>Cadastro</h2></center>
     <div class="contato">
       <form name="contact" method="POST" data-netlify="true" action="obg.html">
         <label>Nome completo: <input type="text" name="name" /></label>
         <label>E-mail: <input type="email" name="email" /></label>
-        <label>Descreva os serviços: <textarea name="message"></textarea></label>
+        <label>Observações: <textarea name="message"></textarea></label>
         <center><input type="submit" class="botao" name="enviar" value="Solicitar Orçamento &raquo;"></center>
       </form>
     </div>
@@ -81,12 +86,11 @@
   <footer>
     <dl>
       <dt>E-mail</dt>
-      <dd>edson@gmail.com</dd>
+      <dd>planilhas@gmail.com</dd>
       <br>
       <dt>Telefone:</dt>
       <dd>00 000-0000</dd>
     </dl>
-    <p>Edson</p>
   </footer>
   
  <script src="script.js"></script>
